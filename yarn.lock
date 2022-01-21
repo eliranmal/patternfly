@@ -1201,6 +1201,17 @@
   dependencies:
     "@octokit/openapi-types" "^9.5.0"
 
+"@patternfly/ast-helpers@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@patternfly/ast-helpers/-/ast-helpers-0.2.7.tgz#3c9e65e868258134116de414f3a6610faf7b8717"
+  integrity sha512-OBCnIq4eqF2nIwgCWAaEIxo0VDf48onM0ZQiGjvr9q8p5PsL20HjcElehu9puLWpY1XEjdzlUeF/UHVPIJsC3A==
+  dependencies:
+    acorn "^8.4.1"
+    acorn-class-fields "^1.0.0"
+    acorn-jsx "^5.3.2"
+    acorn-static-class-features "^1.0.0"
+    astring "^1.7.5"
+
 "@patternfly/patternfly-a11y@4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@patternfly/patternfly-a11y/-/patternfly-a11y-4.2.1.tgz#5bfd4c246c9222a4f0c192f922e71d71e2a3062d"
@@ -13351,22 +13362,18 @@ textextensions@^2.5.0:
   resolved "https://registry.yarnpkg.com/textextensions/-/textextensions-2.6.0.tgz#d7e4ab13fe54e32e08873be40d51b74229b00fc4"
   integrity sha512-49WtAWS+tcsy93dRt6P0P3AMD2m5PvXRhuEA0kaXos5ZLlujtYmpmFsB+QvWUSxE1ZsstmYXfQ7L40+EcQgpAQ==
 
-theme-patternfly-org@0.7.3:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/theme-patternfly-org/-/theme-patternfly-org-0.7.3.tgz#7c760305435ebca591feea53eb627f4974ac8fe4"
-  integrity sha512-NJ/JqtDZWKNhXDfy4QTavc4fNL3oD1dt89iDx7y8FmFZWNxXBhwqIggqRwWuJ8kkErKHWFQaz1NfxmLVhqTSjA==
+theme-patternfly-org@0.9.7:
+  version "0.9.7"
+  resolved "https://registry.yarnpkg.com/theme-patternfly-org/-/theme-patternfly-org-0.9.7.tgz#e5c51ff5a8c4a14df5dc4d08f197d6bc888608cd"
+  integrity sha512-ZzTjpYxWy7qvcPe77ef/BzsLo1o1gJOeebxns3MjNm/fr6wfw4lk01/T9+FB7D7w4x94lM+TqkfPMXFY+SXeXA==
   dependencies:
     "@babel/core" "^7.13.0"
     "@babel/plugin-proposal-class-properties" "^7.13.0"
     "@babel/plugin-transform-react-jsx" "^7.12.0"
     "@babel/preset-env" "^7.13.0"
     "@mdx-js/util" "^1.6.16"
+    "@patternfly/ast-helpers" "^0.2.7"
     "@reach/router" "^1.3.4"
-    acorn "^8.4.1"
-    acorn-class-fields "^1.0.0"
-    acorn-jsx "^5.3.2"
-    acorn-static-class-features "^1.0.0"
-    astring "^1.7.5"
     autoprefixer "^9.8.6"
     babel-loader "^8.1.0"
     camelcase-css "2.0.1"
